@@ -29,10 +29,6 @@
   color: #10191E;
 }
 
-.header__link::after {
-  content: "!";
-}
-
 .header__link[lang="ru"]::before {
   content: 'Привет, меня зовут ';
 }
@@ -43,6 +39,10 @@
 
 .header__link[lang="fr"]::before {
   content: 'Bonjour, je suis ';
+}
+
+.header__link::after {
+  content: "!";
 }
 
 .menu {
